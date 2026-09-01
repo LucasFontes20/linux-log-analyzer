@@ -1,0 +1,7 @@
+Aug 31 10:00:01 server sshd[1001]: Failed password for root from 192.168.1.50 port 4221 ssh2
+Aug 31 10:00:05 server sshd[1002]: Failed password for root from 192.168.1.50 port 4222 ssh2
+Aug 31 10:00:10 server sshd[1003]: Failed password for admin from 192.168.1.50 port 4223 ssh2
+Aug 31 10:00:15 server sshd[1004]: Failed password for admin from 192.168.1.50 port 4224 ssh2
+Aug 31 10:00:20 server sshd[1005]: Failed password for admin from 192.168.1.50 port 4225 ssh2
+Aug 31 10:01:00 server sshd[1006]: Accepted password for joao from 192.168.1.20 port 5000 ssh2
+Aug 31 10:02:00 server sshd[1007]: Invalid user test from 10.0.0.15 port 4000

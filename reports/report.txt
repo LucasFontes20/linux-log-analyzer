@@ -1,0 +1,31 @@
+============================================================
+LINUX LOG ANALYZER
+============================================================
+Arquivo analisado: sample_auth.log
+
+ESTATÍSTICAS
+------------------------------------------------------------
+Login bem-sucedidos: 1
+Login falhos:        5
+Usuários inválidos:  1
+Eventos analisados:  7
+
+TOP IPS COM FALHAS
+------------------------------------------------------------
+192.168.1.50           5 falhas [WARNING]
+
+EVENTOS SUSPEITOS
+------------------------------------------------------------
+Threshold configurado: 5 falhas
+[WARNING] 192.168.1.50 -> 5 falhas
+
+POSSÍVEL BRUTE FORCE
+------------------------------------------------------------
+Janela de análise: 60 segundos
+[WARNING] POSSÍVEL BRUTE FORCE
+IP: 192.168.1.50
+Falhas: 5
+Janela: 60 segundos
+Usuários: admin, root
+
+============================================================
